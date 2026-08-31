@@ -1,0 +1,18 @@
+.room-status-badge.private,
+.room-status-badge.group {
+    background: #7b3fc6;
+}
+
+.room-status-badge.away,
+.room-status-badge.unknown {
+    background: #656579;
+}
+
+.room-disabled {
+    cursor: default;
+}
+
+.room-link-disabled {
+    color: #8f8fa2;
+    cursor: default;
+}

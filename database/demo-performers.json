@@ -1,0 +1,6 @@
+[
+  {"provider_id":"demo-1","username":"aurora_demo","display_name":"Aurora","gender":"f","age":25,"country_code":"IT","image_url":"https://placehold.co/640x480/24243a/f5f5ff?text=Aurora","preview_url":"https://placehold.co/640x480/24243a/f5f5ff?text=Aurora","viewers":342,"tags":["chat","new"],"provider_is_new":true},
+  {"provider_id":"demo-2","username":"luna_demo","display_name":"Luna","gender":"f","age":29,"country_code":"CO","image_url":"https://placehold.co/640x480/30213b/f5f5ff?text=Luna","preview_url":"https://placehold.co/640x480/30213b/f5f5ff?text=Luna","viewers":218,"tags":["dance","italian"]},
+  {"provider_id":"demo-3","username":"alex_demo","display_name":"Alex","gender":"m","age":27,"image_url":"https://placehold.co/640x480/173448/f5f5ff?text=Alex","preview_url":"https://placehold.co/640x480/173448/f5f5ff?text=Alex","viewers":154,"tags":["music","chat"]},
+  {"provider_id":"demo-4","username":"nova_demo","display_name":"Nova","gender":"t","age":31,"image_url":"https://placehold.co/640x480/35233d/f5f5ff?text=Nova","preview_url":"https://placehold.co/640x480/35233d/f5f5ff?text=Nova","viewers":96,"tags":["cosplay","friendly"]}
+]

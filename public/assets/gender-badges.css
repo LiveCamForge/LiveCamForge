@@ -1,0 +1,18 @@
+.gender-badge {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 7px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 6px;
+    background: rgba(5, 5, 10, 0.86);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.gender-badge.female { background: rgba(181, 43, 105, 0.92); }
+.gender-badge.male { background: rgba(31, 103, 163, 0.92); }
+.gender-badge.trans { background: rgba(118, 71, 181, 0.94); }
+.gender-badge.couple { background: rgba(142, 83, 28, 0.94); }

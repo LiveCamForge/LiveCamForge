@@ -1,0 +1,78 @@
+.traffic-nav { border-bottom:1px solid var(--border);background:color-mix(in srgb,var(--panel) 82%,transparent); }
+.traffic-nav>div { width:min(1200px,calc(100% - 32px));margin:auto;display:flex;flex-wrap:wrap;gap:6px 8px;padding:10px 0; }
+.traffic-nav a { flex:0 1 auto;text-decoration:none;color:var(--muted);font-size:12px;font-weight:750;padding:7px 10px;border-radius:8px;white-space:normal;line-height:1.25; }
+.traffic-nav a:hover,.traffic-nav a.active { color:var(--text);background:var(--panel2); }
+.traffic-special-nav { border-bottom:1px solid var(--border);background:color-mix(in srgb,var(--panel2) 54%,transparent); }
+.traffic-special-nav>div { width:min(1200px,calc(100% - 32px));margin:auto;display:flex;align-items:center;justify-content:flex-end;gap:16px;padding:7px 0; }
+.traffic-special-label { color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.09em;text-transform:uppercase; }
+.traffic-special-links { display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 8px; }
+.traffic-special-links a { text-decoration:none;color:var(--text);font-size:12px;font-weight:800;padding:6px 10px;border-radius:8px; }
+.traffic-special-links a:hover { background:var(--panel2);color:var(--pink); }
+@media(max-width:700px) {
+  .traffic-nav>div { width:min(100% - 20px,1200px);gap:4px;padding:8px 0; }
+  .traffic-nav a { flex:1 1 calc(50% - 4px);font-size:11px;padding:7px 8px; }
+  .traffic-special-nav>div { width:min(100% - 20px,1200px);align-items:flex-start;justify-content:flex-start;gap:8px;padding:8px 0;flex-direction:column; }
+  .traffic-special-links { width:100%;justify-content:flex-start;gap:6px; }
+  .traffic-special-links a { background:color-mix(in srgb,var(--panel2) 72%,transparent); }
+}
+@media(max-width:420px) { .traffic-nav a { flex-basis:100%; } }
+.landing-hero { padding-bottom:28px; }
+.landing-faq { margin-top:32px; }
+.landing-faq h2 { margin-top:0; }
+.landing-faq details { border-top:1px solid var(--border);padding:14px 0; }
+.landing-faq summary { cursor:pointer;font-weight:750; }
+.landing-faq p { color:var(--muted);margin-bottom:0; }
+.landing-content { margin-top:32px;line-height:1.72; }
+.landing-content h2,.landing-content h3 { margin:0 0 12px; }
+.landing-content h2:not(:first-child),.landing-content h3:not(:first-child) { margin-top:28px; }
+.landing-content p,.landing-content li { color:var(--muted); }
+.landing-content a { color:var(--pink); }
+.recruitment-hero { max-width:900px;padding-bottom:10px; }
+.recruitment-hero .intro { max-width:760px; }
+.recruitment-provider-area { max-width:1040px;margin-top:24px; }
+.recruitment-section-heading { margin-bottom:18px; }
+.recruitment-section-heading h2 { margin:0 0 8px;font-size:clamp(22px,2.2vw,30px); }
+.recruitment-section-heading p { color:var(--muted);max-width:820px;margin:0;line-height:1.65; }
+.recruitment-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:0; }
+.recruitment-grid-count-1 { grid-template-columns:minmax(0,760px); }
+.recruitment-grid-count-2 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.recruitment-card { display:flex;flex-direction:column;justify-content:space-between;gap:20px;min-height:210px;padding:24px; }
+.recruitment-card h3 { margin:0 0 10px;font-size:clamp(20px,2vw,25px); }
+.recruitment-card p { color:var(--muted);margin:0;line-height:1.65; }
+.recruitment-card .button { align-self:flex-start; }
+.recruitment-content { max-width:1040px;margin-top:38px;padding:4px 0 0;line-height:1.78; }
+.recruitment-content h2 { font-size:clamp(21px,2vw,27px);margin:0 0 10px; }
+.recruitment-content h2:not(:first-child) { margin-top:34px;padding-top:30px;border-top:1px solid var(--border); }
+.recruitment-content h3 { margin-top:24px; }
+.recruitment-content p,.recruitment-content ul,.recruitment-content ol { max-width:920px; }
+.recruitment-faq { max-width:1040px; }
+.recruitment-note { color:var(--muted);font-size:13px;max-width:1040px;margin:20px auto 28px;text-align:center; }
+@media(max-width:800px) { .recruitment-grid,.recruitment-grid-count-1,.recruitment-grid-count-2 { grid-template-columns:1fr; } .recruitment-card { min-height:0;padding:20px; } }
+
+/* Admin-only special landing preview: keep the CTA visible when its destination is not configured yet. */
+.webmaster-recruitment-cta .button[aria-disabled="true"] { opacity: .65; cursor: default; pointer-events: none; }
+.webmaster-recruitment-cta .preview-cta-note { display: block; margin-top: .55rem; opacity: .75; }
+
+
+/* Webmaster landing: editorial flow first, conversion CTA only after the explanation. */
+.webmaster-recruitment-hero { max-width:900px;padding-bottom:10px; }
+.webmaster-recruitment-hero .intro { max-width:760px; }
+.webmaster-recruitment-content { max-width:1040px;margin-top:22px;padding:4px 0 0;line-height:1.78; }
+.webmaster-recruitment-content h2 { font-size:clamp(21px,2vw,27px);margin:0 0 10px; }
+.webmaster-recruitment-content h2:not(:first-child) { margin-top:34px;padding-top:30px;border-top:1px solid var(--border); }
+.webmaster-recruitment-content h3 { margin-top:24px; }
+.webmaster-recruitment-content p { max-width:920px;margin:0 0 14px; }
+.webmaster-recruitment-content ul,.webmaster-recruitment-content ol { max-width:920px;padding-left:22px; }
+.webmaster-recruitment-faq { max-width:1040px; }
+.webmaster-recruitment-final-cta { margin-top:36px;padding:26px 28px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;border-color:color-mix(in srgb,var(--pink) 45%,var(--border));background:linear-gradient(135deg,color-mix(in srgb,var(--pink) 9%,var(--panel)),var(--panel)); }
+.webmaster-recruitment-final-cta .eyebrow { margin:0 0 8px; }
+.webmaster-recruitment-final-cta h2 { margin:0 0 8px;font-size:clamp(21px,2vw,27px); }
+.webmaster-recruitment-final-cta-copy>p:last-child { color:var(--muted);margin:0;max-width:680px;line-height:1.6; }
+.webmaster-recruitment-final-cta .webmaster-recruitment-cta { min-width:230px;text-align:right; }
+.webmaster-recruitment-final-cta .button { display:inline-flex;justify-content:center;align-items:center;min-height:46px; }
+.webmaster-recruitment-final-cta .preview-cta-note { max-width:300px;margin-left:auto;text-align:right; }
+.webmaster-recruitment-note { max-width:1040px;margin:18px auto 28px;text-align:center; }
+@media(max-width:800px) { .webmaster-recruitment-final-cta { grid-template-columns:1fr;padding:22px;gap:18px; } .webmaster-recruitment-final-cta .webmaster-recruitment-cta,.webmaster-recruitment-final-cta .preview-cta-note { text-align:left;margin-left:0; } }
+
+/* 0.27.14: model recruitment asks for the registration action only after the explanatory content. */
+.recruitment-provider-area-final { margin-top: 2.4rem; }

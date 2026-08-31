@@ -1,0 +1,25 @@
+DirectoryIndex index.php
+
+Options -Indexes
+
+<FilesMatch "(^\.|\.(?:log|sql|ini|bak|dist|example)$|^(?:composer\.(?:json|lock)|phpunit\.xml(?:\.dist)?)$)">
+    Require all denied
+</FilesMatch>
+
+RewriteEngine On
+
+# Public deployments should use HTTPS. Keep local development over HTTP usable.
+RewriteCond %{HTTP_HOST} !^(?:localhost|127\.0\.0\.1)(?::[0-9]+)?$ [NC]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteRule ^sitemap\.xml$ public/index.php?route=sitemap [L,QSA]
+RewriteRule ^robots\.txt$ public/index.php?route=robots [L,QSA]
+RewriteRule ^cams/([a-z0-9][a-z0-9-]{0,60})/?$ public/index.php?landing=$1 [L,QSA]
+RewriteRule ^model/([a-z0-9_-]+)/([^/]+)/?$ public/index.php?provider=$1&model=$2 [L,QSA,B]
+RewriteRule ^become-a-model/?$ public/index.php?route=recruitment [L,QSA]
+RewriteRule ^for-webmasters/?$ public/index.php?route=webmaster-recruitment [L,QSA]
+RewriteRule ^become-a-model/([a-z0-9_-]+)/?$ recruitment-go.php?recruit_provider=$1 [L,QSA]
+
+<FilesMatch "^(local\.php|\.env)$">
+    Require all denied
+</FilesMatch>

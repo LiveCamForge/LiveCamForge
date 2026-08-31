@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+<rect width="320" height="180" rx="18" fill="hsl(43 68% 88%)"/><path d="M106 60L83 29l43 17M214 60l23-31-43 17" fill="hsl(78 76% 56%)"/>
+<circle cx="160" cy="96" r="70" fill="hsl(218 46% 34%)" opacity=".9"/>
+<circle cx="134" cy="86" r="8" fill="#fff"/><circle cx="186" cy="86" r="8" fill="#fff"/>
+<circle cx="134" cy="86" r="4"/><circle cx="186" cy="86" r="4"/>
+<path d="M145 117q15 14 30 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<rect x="18" y="145" width="284" height="23" rx="11" fill="#fff" opacity=".75"/>
+<text x="160" y="161" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#222">Fox 29</text></svg>

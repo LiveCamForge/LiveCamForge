@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+<rect width="320" height="180" rx="18" fill="hsl(211 68% 88%)"/><circle cx="118" cy="91" r="47" fill="hsl(246 76% 56%)"/><circle cx="202" cy="91" r="47" fill="hsl(26 46% 34%)" opacity=".88"/>
+<circle cx="104" cy="84" r="5"/><circle cx="132" cy="84" r="5"/><circle cx="188" cy="84" r="5"/><circle cx="216" cy="84" r="5"/>
+<path d="M108 106q10 10 20 0M192 106q10 10 20 0" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+<rect x="18" y="145" width="284" height="23" rx="11" fill="#fff" opacity=".75"/>
+<text x="160" y="161" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#222">Frog Duo 37</text></svg>

@@ -1,0 +1,28 @@
+.card-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.provider-badge {
+    display: inline-block;
+    margin-bottom: 7px;
+    border-radius: 99px;
+    padding: 3px 7px;
+    background: color-mix(in srgb,var(--purple) 22%,var(--panel));
+    color: color-mix(in srgb,var(--purple) 45%,var(--text));
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.card-title-link:hover,
+.room-link:hover {
+    color: color-mix(in srgb,var(--purple) 45%,var(--text));
+}
