@@ -1,5 +1,7 @@
 # LiveCamForge 1.0.1
-
+[![Latest Release](https://img.shields.io/github/v/release/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge/releases)
+[![License](https://img.shields.io/github/license/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge/blob/main/LICENSE)
+[![GitHub Discussions](https://img.shields.io/badge/discussions-enabled-blue)](https://github.com/LiveCamForge/LiveCamForge/discussions)
 > Build your own multi-provider live cam discovery and affiliate site.
 
 
