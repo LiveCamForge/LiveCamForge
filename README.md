@@ -2,12 +2,38 @@
 [![Latest Release](https://img.shields.io/github/v/release/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge/releases)
 [![License](https://img.shields.io/github/license/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge/blob/main/LICENSE)
 [![GitHub Discussions](https://img.shields.io/badge/discussions-enabled-blue)](https://github.com/LiveCamForge/LiveCamForge/discussions)
-> Build your own multi-provider live cam discovery and affiliate site.
+[![GitHub stars](https://img.shields.io/github/stars/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge)
+> Build your own multi-provider adult live cam discovery and affiliate site.
 
 
-LiveCamForge is an open-source PHP/MySQL application for building a multi-provider live-cam discovery website. It normalizes different provider feeds into one catalog and provides public discovery pages, provider-specific players, affiliate redirects, optional conversion tracking, SEO landing pages, geographic safeguards and an administrator interface.
+LiveCamForge is an open-source PHP/MySQL application for building a multi-provider adult live cam discovery and affiliate website. It normalizes different provider feeds into one catalog and provides public discovery pages, provider-specific players, affiliate redirects, optional conversion tracking, SEO landing pages, geographic safeguards and an administrator interface.
 
 LiveCamForge does not host or retransmit provider content. It uses the feeds, images, streams, widgets and destination URLs made available by the integrations you configure.
+
+## Demo
+
+Try the public demonstration:
+
+https://demo.livecamforge.com
+
+The public demo includes:
+- multi-provider performer catalog;
+- filters and discovery pages;
+- performer detail pages;
+- responsive public interface.
+
+### Administration demo
+
+You can also explore the LiveCamForge administration panel with the demo account.
+
+URL:
+https://demo.livecamforge.com/admin
+
+Demo credentials:
+
+Username: admin
+
+Password: adminadminadmin
 
 ## Included integrations
 
