@@ -3,6 +3,9 @@
 [![License](https://img.shields.io/github/license/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge/blob/main/LICENSE)
 [![GitHub Discussions](https://img.shields.io/badge/discussions-enabled-blue)](https://github.com/LiveCamForge/LiveCamForge/discussions)
 [![GitHub stars](https://img.shields.io/github/stars/LiveCamForge/LiveCamForge)](https://github.com/LiveCamForge/LiveCamForge)
+
+[![Support LiveCamForge on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/camforge)
+
 > Build your own multi-provider adult live cam discovery and affiliate site.
 
 
